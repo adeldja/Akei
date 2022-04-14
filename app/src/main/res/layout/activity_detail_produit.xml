@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_detail_produit_scene"
+    tools:context=".DetailProduit">
+
+    <TextView
+        android:id="@+id/tv_nomP"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv_lxLxhxp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv_Prix"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="#000000" />
+</LinearLayout>
